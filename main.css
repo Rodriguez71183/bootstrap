@@ -1,0 +1,82 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgb(208, 238, 228);
+}
+
+.navbar {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#mas {
+  background-image: url(https://th.bing.com/th/id/R.8196173cd7f4300855ec7f7f69b14e0a?rik=pBUwMyF35InX0A&riu=http%3a%2f%2fletrasdecolores.com%2fwp-content%2fuploads%2f2013%2f10%2fslideinfant-1024x397.jpg&ehk=cjLnsu%2fh0qy6%2bMeclE4rFEbRuWGfwKzXoczQP5I%2fLGU%3d&risl=&pid=ImgRaw&r=0);
+  opacity: .7;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+footer {
+  background: url(https://images.squarespace-cdn.com/content/v1/572a168c22482e932a7ff875/1586790869912-H6VDSNCS9ED566L7SW8J/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/2.jpg);
+  background-size: cover;
+}
+
+.display-4{
+  color: blueviolet;
+}
+h2{
+  color: blueviolet;
+  font-weight: bold;
+}
+
+h3{
+  color: rgb(230, 33, 236);
+  background-color: aquamarine;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.enlace{
+  background-image: url(https://tehnograf.com/images/soc-seti-001.jpg);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  background-position: center;
+  color: black;
+  font-weight: bold;
+
+
+}
+
+.enlace1{
+  background-image: url(https://th.bing.com/th/id/OIP.HGbJ5ltHzO-A897cM7ztIQAAAA?pid=ImgDet&w=400&h=251&rs=1);
+  background-position: center;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+
+}
+
+.enlace2{
+  background-image: url(https://th.bing.com/th/id/OIP.G1ruYTldF8Jr0CVoxoWdFQHaDt?pid=ImgDet&w=1000&h=500&rs=1);
+  background-position: center;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+.redes{
+  text-align: right;
+  padding: 2rem;
+}
+
