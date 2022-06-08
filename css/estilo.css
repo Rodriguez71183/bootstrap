@@ -1,6 +1,7 @@
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
   background-color: rgb(208, 238, 228);
+  line-height: 2rem;
 }
 
 .navbar {
@@ -9,9 +10,24 @@ body {
   font-weight: bold;
 }
 
+#inicio {
+  background-image: url(https://i.pinimg.com/originals/6a/d0/78/6ad078625c2c829f647433c71e6c0818.jpg);
+  opacity: .8;
+  background-attachment: fixed;
+
+}
+
+.contenedor-derecho {
+  background-color: rgb(208, 238, 228);
+  padding: 1rem;
+  margin: 1rem 0 ;
+  border-radius: 8%;
+
+}
+
 #mas {
   background-image: url(https://th.bing.com/th/id/R.8196173cd7f4300855ec7f7f69b14e0a?rik=pBUwMyF35InX0A&riu=http%3a%2f%2fletrasdecolores.com%2fwp-content%2fuploads%2f2013%2f10%2fslideinfant-1024x397.jpg&ehk=cjLnsu%2fh0qy6%2bMeclE4rFEbRuWGfwKzXoczQP5I%2fLGU%3d&risl=&pid=ImgRaw&r=0);
-  opacity: .7;
+  opacity: .6;
   padding: 50px 0 30px 0;
   text-align:center;
   margin-top: 40px;
@@ -20,6 +36,12 @@ body {
 footer {
   background: url(https://images.squarespace-cdn.com/content/v1/572a168c22482e932a7ff875/1586790869912-H6VDSNCS9ED566L7SW8J/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/2.jpg);
   background-size: cover;
+}
+
+.nosotrosH1{
+  color: blueviolet;
+  font-weight: bold;
+  padding: 2rem;
 }
 
 .display-4{
@@ -46,8 +68,6 @@ h3{
   background-position: center;
   color: black;
   font-weight: bold;
-
-
 }
 
 .enlace1{
@@ -74,9 +94,20 @@ h3{
 
 }
 
-
-.redes{
-  text-align: right;
-  padding: 2rem;
+.presentacion{
+  border-radius: 50%;
+  margin-left: 3rem;
 }
+
+
+.contenedorFlex {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.redes {
+  color: aliceblue;
+}
+
 
